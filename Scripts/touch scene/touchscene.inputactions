@@ -1,0 +1,34 @@
+{
+    "name": "touchscene",
+    "maps": [
+        {
+            "name": "retry",
+            "id": "e7dfbeaf-17a4-4b21-82e0-9f139f5dc7ee",
+            "actions": [
+                {
+                    "name": "retry",
+                    "type": "Button",
+                    "id": "d06d19c0-9d0a-4abb-a980-79f27e25a6a0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "841faa13-e5da-4e76-8524-8081bc2eea93",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "retry",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

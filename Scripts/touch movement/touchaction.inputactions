@@ -1,0 +1,102 @@
+{
+    "name": "touchaction",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "953d0d28-2649-4562-a2d3-73e5cccee923",
+            "actions": [
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "95381599-5776-4279-90f8-c506bc9c26d8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchPress",
+                    "type": "Value",
+                    "id": "e62a695b-0fd1-47f6-a4eb-74bdbed6617f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "174a2312-fb30-42f1-a723-751c5dfa090a",
+                    "path": "/touch/phase",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a7fb3981-c791-424a-acfc-c120a08c4b96",
+                    "path": "/touch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Touchscreen",
+            "id": "8a94dd24-86c2-4009-a59a-a898bc1bb974",
+            "actions": [
+                {
+                    "name": "Phase",
+                    "type": "Button",
+                    "id": "c6d99265-606f-4ad5-a9b0-5cacc03e3a96",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "d39e9dc0-4c19-4693-a3dc-98d1c8ab510b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c18821aa-3022-4d0e-8690-6259c2f74160",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Phase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1159f97-45ce-459f-851b-73eed3ba9426",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
