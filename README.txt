@@ -1,0 +1,2 @@
+This is an archive of the scripts used for the game project "Reaper". These was the final project for our team in our Entertainment Software Design class in Spring of 2023.
+These scripts were written by John Asaro, Wanjiru Njuguna and Danna Sandoval.
